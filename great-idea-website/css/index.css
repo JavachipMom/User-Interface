@@ -75,6 +75,16 @@ h1, h2, h3, h4, h5 {
 	margin-top: 30px;
 }
 
+.container_nav {
+	background-color: lightslategray;
+}
+
+.container_nav nav a:hover {
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+}
+
 .container nav {
 	display: inline-block;
 	vertical-align: text-bottom;
@@ -84,6 +94,7 @@ h1, h2, h3, h4, h5 {
 
 .container a {
 	font-size: 14px;
+	padding: 4px;
 	text-decoration: none;
 	margin: 0 28px;
 	color: #b9b9b9;
@@ -102,6 +113,21 @@ h1, h2, h3, h4, h5 {
 	text-align: center
 }
 
+.main_title p {
+	animation-name: header;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+
+@keyframes header {
+	0% {color: black;}
+	25% {color: blue;}
+	50% {color: green;}
+	75% {color: red;}
+	100% {color: black;}
+}
+
 .main_title a {
 	vertical-align: middle;
 	border: black solid 1px;
@@ -112,7 +138,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-	
+	vertical-align: sub;
 }
 
 .main_image {
