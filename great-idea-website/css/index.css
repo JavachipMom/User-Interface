@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5 {
 	0% {color: black;}
 	25% {color: blue;}
 	50% {color: green;}
-	75% {color: red;}
+	75% {color: purple;}
 	100% {color: black;}
 }
 
@@ -176,6 +176,7 @@ h1, h2, h3, h4, h5 {
 section h2 {
 	margin-top: 50px;
 }
-footer {
+
+.copyright {
 	text-align: center;
 }
