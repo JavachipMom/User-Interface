@@ -58,7 +58,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Press Start 2P', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -76,7 +76,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .container_nav {
+	position: fixed;
+	top: 0;
+	width: 52.9%;
 	background-color: lightslategray;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-position: right top;
 }
 
 .container_nav nav a:hover {
@@ -93,7 +99,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container a {
-	font-size: 14px;
+	/* font-size: 14px; */
 	padding: 4px;
 	text-decoration: none;
 	margin: 0 28px;
@@ -103,14 +109,20 @@ h1, h2, h3, h4, h5 {
 
 .main_title {
 	margin: 50px 0;
+	height: 383px;
+	background-image: url('../img/header-img.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+
 }
 
 .main_title h1 {
-	vertical-align: bottom;
+	vertical-align: middle;
 	display: inline-block;
 	width: 460px;
-	font-size: 75px;
-	text-align: center
+	font-size: 45px;
+	text-align: center;
+	margin: 100px 0;
 }
 
 .main_title p {
@@ -167,6 +179,9 @@ h1, h2, h3, h4, h5 {
 
 .middle-img {
 	margin-top: 50px;
+	height: 182px;
+	background-image: url('../img/mid-page-accent.jpg');
+	background-repeat: no-repeat;
 }
 
 .address p {
